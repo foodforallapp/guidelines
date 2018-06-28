@@ -38,9 +38,9 @@ This guide contains a series of recommendations and rules for android developers
         - [2.3.3 String naming](#233-string-naming)
         - [2.3.4 Order of attributes](#234-order-of-attributes)
 - [3 Installation](#3-installation)
-        -[3.1 Tools](#31-tools)
-        -[3.2 Run the app](#32-run-the-app)
-        -[3.3 Generate a signed APK](#33-generate-signed-apk)
+        - [3.1 Tools](#31-tools)
+        - [3.2 Run the app](#32-run-the-app)
+        - [3.3 Generate a signed APK](#33-generate-signed-apk)
 - [4 Commiting](#4-Commiting)
 - [Thanks to](#thanks-to)
 
