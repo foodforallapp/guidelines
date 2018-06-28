@@ -79,8 +79,8 @@ Git has three main states that your files can reside in: committed, modified, an
 If you haven't use Git before you need to setup a basic configuration, the first thing you need to do is to tell Git who you are.   The name and email will be used by Git to identify the person who is making the changes.
 
 ```bash
-$ git config --global user.name "Disblu"
-$ git config --global user.email dev@disblu.com
+$ git config --global user.name "Insert github username here"
+$ git config --global user.email "Insert personal email"
 ```
 
 ## 3.2 Text Editor
@@ -97,8 +97,8 @@ You can check your current configuration using the next command:
 
 ```bash
 $ git config --list
-user.name=Disblu
-user.email=dev@disblu.com
+user.name="Insert github username here"
+user.email="Insert personal email here"
 color.status=auto
 color.branch=auto
 color.interactive=auto
