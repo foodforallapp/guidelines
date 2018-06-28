@@ -37,6 +37,11 @@ This guide contains a series of recommendations and rules for android developers
             - [2.3.2.1 Id Naming](#2321-id-naming)
         - [2.3.3 String naming](#233-string-naming)
         - [2.3.4 Order of attributes](#234-order-of-attributes)
+- [3 Installation](#3-installation)
+        -[3.1 Tools](#31-tools)
+        -[3.2 Run the app](#32-run-the-app)
+        -[3.3 Generate a signed APK](#33-generate-signed-apk)
+- [4 Commiting](#4-Commiting)
 - [Thanks to](#thanks-to)
 
 # 1 Project Structure
@@ -400,7 +405,7 @@ good:
 
 ```java
 <EditText
-    android:id="@+id/edit_text_profile"
+    android:id="@+id/et_text_profile"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content" />
 ```
@@ -422,7 +427,7 @@ Example:
 
 ```java
 <TextView
-    android:id="@+id/text_view_profile"
+    android:id="@+id/tv_view_profile"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content" />
 ```
@@ -433,9 +438,9 @@ Should be prefixed with the name of the element.
 
 | Element            | Prefix            |
 | -----------------  | ----------------- |
-| `TextView`           | `text_`             |
-| `ImageView`          | `image_`            |
-| `Button`             | `button_`           |
+| `TextView`           | `tv_`             |
+| `ImageView`          | `img_`            |
+| `Button`             | `btn_`           |
 | `Menu`               | `menu_`             |
 
 ### 2.3.3 String naming
@@ -460,6 +465,45 @@ There is no general rule, but we recommend the next order:
 - Other layout attributes, sorted alphabetically
 -  Custom attributes, sorted alphabetically
 
+# 3 Installation 
+
+## 3.1 Tools
+
+- Android Studio
+- Android Platform Tools 
+- Github Repos
+- Pivotal Tracker 
+
+The access to these tools is given by the CTO - [Victor](https://github.com/viccarre)
+
+## 3.2 Run the app 
+
+1. Install Android Studio (We run 3.1.3)
+2. Download the repository 
+3. Open the project in Android Studio 
+4. Install of the necessary libs, extensions
+
+## 3.3 Generate a signed APK 
+
+If you want to generate a signed apk you will need the keyStore `jks` file and the passwords in order to compile the app for release. The app for release needs you to add to in `gradle.properties` the keyStorePassword, keyAlias, and keyPassword. This keys will be granted by the CTO - [Victor](https://github.com/viccarre) or any other authorized developer.
+After adding the keys and having the keyStore follow this steps :
+
+1. In the section of `Build` select `Generate Signed Apk`
+2. Select the module app
+3. Fill of the information needed
+    3.1 We have a keystore so don't generate a new one.
+
+    3.2 Click on the remember password
+4. Check the V1 and V2 checkboxes 
+5. Locate the APK in the following folder - `.../foodforall_android/app/release/`
+
+# 4 Commiting 
+
+Before commiting always run the Android Lint - there's things that can't be changed but check if there's 
+things that were developed in that branch that appear in the lint. In case that your files appear in the 
+lint, do the changes you consider necessary. 
+
+In order to commit check the [Git Guide](https://github.com/foodforallapp/guidelines/tree/master/git)
 
 # Thanks to
 

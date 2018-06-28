@@ -22,11 +22,12 @@ Thank you, [contributors](https://github.com/foodforallapp/guidelines/graphs/con
 ![FoodForAll](https://foodforall.com/assets/logo-blue-a61b536e4744e1c6a1021092aa2f03c69ed438d17050955a9e7aee3fb4e804e5.svg)
 
 Guidelines, made with ❤ by [Food For All](http://www.foodforall.com).
-Contribution made by [Disblu](http://www.disblu.com).
+
+Original repo made by [Disblu](http://www.disblu.com).
 
 License
 -------
 
-Guidelines © 2018 Disblu and forked by Food For All. It is distributed under the [Creative Commons
+Guidelines © 2018 Food For All. It is distributed under the [Creative Commons
 Attribution License](http://creativecommons.org/licenses/by/3.0/).
 
